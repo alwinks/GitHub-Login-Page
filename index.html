@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GitHub</title>
+    <!-- Bootstrap Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Main CSS, JS Files -->
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/login.js"></script>
+</head>
+
+<body>
+    <!-- Main Section -->
+    <div class="container">
+        <!-- Title Section -->
+        <div class="title">
+            <img src="assets/img/GitHub-Mark-64px.png"><br><br>
+            <h1>Sign in to GitHub</h1>
+        </div>
+        <!-- End Title Section -->
+        <!-- Form Section -->
+        <form class="form-group bg-light rounded">
+            <label for="username">Username or email address</label>
+            <input class="form-control" type="text" id="username"><br>
+            <label for="password">Password</label><a class="right">Forgot password?</a>
+            <input class="form-control" type="password" id="password"><br>
+            <input type="submit" onclick="login()" class="btn button" value="Sign in">
+        </form>
+        <!-- End Form Section -->
+        <br>
+        <!-- New to GitHub? Section -->
+        <div class="newtogit">
+            <p class="border rounded">New to GitHub? <a href="#">Create an account.</a></p>
+        </div>
+        <!-- End New to GitHub? Section -->
+        <!-- Footer Section -->
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#" class="contact">Contact GitHub</a></li>
+        </ul>
+        <!-- End Footer Section -->
+    </div>
+    <!-- End Main Section -->
+</body>
+
+</html>
