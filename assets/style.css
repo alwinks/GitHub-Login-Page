@@ -25,13 +25,13 @@ form {
 }
 /* a Tag */
 a {
-    color: 58a6ff;
+    color: #58a6ff;
     text-decoration: none;
 }
 /* Button */
 .button {
-    background-color: 238636;
-    color: ffffff;
+    background-color: #238636;
+    color: #ffffff;
     text-align: center;
     width: 100%;
 }
@@ -51,5 +51,5 @@ li {
 }
 /* Contact Color */
 .contact {
-    color: black;
+    color: #000000;
 }
